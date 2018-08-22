@@ -1,8 +1,8 @@
-FROM phusion/baseimage:0.9.22
+FROM phusion/baseimage:0.10.2
 MAINTAINER Denys Zhdanov <denis.zhdanov@gmail.com>
 
-ENV GO_CARBON_VERSION="0.11.0"
-ENV GRAFANA_CARBON_VERSION="4.6.2"
+ENV GO_CARBON_VERSION="0.13.0"
+ENV GRAFANA_CARBON_VERSION="5.2.3"
 
 
 RUN apt-get -y update \
